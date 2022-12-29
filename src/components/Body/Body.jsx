@@ -1,6 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router";
-
+import { Route, Routes } from "react-router-dom";
 import Home from "../../containers/Home/Home";
 import Login from "../../containers/Login/Login";
 import Profile from "../../containers/Profile/Profile";
