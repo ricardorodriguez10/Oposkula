@@ -4,7 +4,7 @@
     height: 100vh;
     align-items: center;  
     flex-direction: column;
-    background-color: red;
+    background-color: gray;
 }
 
 .registerButton {
@@ -16,4 +16,23 @@
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+.inputNormal {
+
+height: 3em;
+width: 18em;
+margin: 1em;
+border-radius: 5%;
+border: 0.5em blue;
+
+}
+
+.inputError {
+
+    border: 0.1em red;
+}
+
+.errorMessage {
+    color: red;
 }
