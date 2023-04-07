@@ -3,6 +3,12 @@
     background-color: black;
 }
 
+.firstPart {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
 .homeImg {
     width: 95rem;
     height:40rem;
@@ -94,7 +100,6 @@ padding: 100px 0px 150px 0px;
     position: flex;
     width: 475px;
     height: 466px;
-    margin-left: 3em;
     border-radius: 16px 16px 16px 16px;
 }
 

@@ -8,18 +8,72 @@ import "./Home.css"
 import FoodDetailCard from "../../components/FoodDetailCard/FoodDetailCard"
 import MealCard from "../../components/MealCard";
 import FoodList from "../../components/Food/FoodList"
+import Carousel from 'react-bootstrap/Carousel';
+import Profile from "../Profile/Profile";
 
  const Home = () => {
     return (
       <div className="homePage">
-        <h1>Home</h1>
-        {/* <img className="homeImg" src={opoImg} alt="Oposiciones"></img> */}
-        <section className="whoWeAre">
 
-        <div className="firstPart">
+       <section id="oppositions">
+
+       <div className="firstPart">
           <h1>Nutricionistas y Entrenadores</h1>
-          <h1>Deportivos Online</h1>
+          <h1>Deportivos para Opositores</h1>
           </div>
+
+    <Carousel>
+      <Carousel.Item>
+      <a href="profile">
+        <img
+          className="phoneImg"
+          src={phone}
+          alt="First slide"
+        />
+     </a>
+
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <a href="profile">
+        <img
+          className="nutritionistImg"
+          src={sportnutritionist}
+          alt="Second slide"
+        />
+        </a>
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <a href="profile">
+        <img
+          className="coachImg"
+          src={trainer}
+          alt="Third slide"
+        />
+        </a>
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+
+       </section>
+       
+        <section className="whoWeAre">
 
           <div className="firstPartText">
             <p>Tu nutricionista deportivo y entrenador
