@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getDataFromApi } from "../../Services/apiCalls";
-import opoImg from "../../assets/Oposiciones.jpg"
+import Oposiciones from "../../assets/Oposiciones.jpg"
 import phone from "../../assets/phone.jpg"
 import sportnutritionist from "../../assets/sportnutritionist.jpg"
 import trainer from "../../assets/trainer.jpg"
@@ -9,6 +9,8 @@ import FoodDetailCard from "../../components/FoodDetailCard/FoodDetailCard"
 import MealCard from "../../components/MealCard";
 import FoodList from "../../components/Food/FoodList"
 import Carousel from 'react-bootstrap/Carousel';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 import Profile from "../Profile/Profile";
 
  const Home = () => {
@@ -21,6 +23,15 @@ import Profile from "../Profile/Profile";
           <h1>Nutricionistas y Entrenadores</h1>
           <h1>Deportivos para Opositores</h1>
           </div>
+
+          <div className="FirstImg">
+            <img className="oppoImg" src={Oposiciones} alt="OppositionsImg"></img>
+          </div>
+      
+          <section className="whoIsOpox">
+          <h2>Opox la nueva forma de opositar</h2>
+          <p>Opox es la plataforma digital de nutricionistas deportivos y entrenadores que te brindaran tu plan de entrenamiento y nutrición para que puedas cumplir tu sueño de pasar las oposiciones.</p>
+          </section>
 
     <Carousel>
       <Carousel.Item>
@@ -68,8 +79,67 @@ import Profile from "../Profile/Profile";
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-  );
-}
+
+       </section>
+
+       <section className="OurServices">
+
+       <CardGroup>
+      <Card>
+        <Card.Img variant="top" src={phone} />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+           <p className="cardP"> This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.</p>
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+      <Card>
+        <Card.Img variant="top" src={sportnutritionist} />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            <p className="cardP">This card has supporting text below as a natural lead-in to
+            additional content.</p>
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+      <Card>
+        <Card.Img variant="top" src={trainer} />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+          <p className="cardP"> This is a wider card with supporting text below as a natural lead-in
+            to additional content. This card has even longer content than the
+            first to show that equal height action.</p>
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+       <Card>
+        <Card.Img variant="top" src={phone} />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+           <p className="cardP"> This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.</p>
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+    </CardGroup>
+
 
        </section>
        
