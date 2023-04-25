@@ -3,18 +3,18 @@
     justify-content: space-between;
     display: flex;
     gap: var(--space-medium);
-    background-color: green;
+    background-color: 
 
 }
 
-.li {
+.linkDesign {
     padding: 4px;
     margin: auto;
     cursor: pointer;
     list-style: none;
 }
 
-.li:hover {
+.linkDesign:hover {
     color: red;
     transition: 0.5s;
 }
