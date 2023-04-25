@@ -11,7 +11,7 @@ import FoodList from "../../components/Food/FoodList"
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import Profile from "../Profile/Profile";
+
 
  const Home = () => {
     return (

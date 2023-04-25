@@ -1,11 +1,11 @@
 import React from "react";
 
-const Search = () => {
+const Contact = () => {
   return (
     <div className="searchPage">
-      <h1>Search</h1>
+      <h1>Contacto</h1>
     </div>
   );
 };
 
-export default Search;
+export default Contact;

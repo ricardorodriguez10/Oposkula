@@ -1,19 +1,17 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Contact from "../../containers/Contact/Contact";
 import Home from "../../containers/Home/Home";
-import Login from "../../containers/Login/Login";
-import Profile from "../../containers/Profile/Profile";
-import Register from "../../containers/Register/Register";
-import Search from "../../containers/Search/Search";
+// import Register from "../../containers/Register/Register";
+import Servicios from "../../containers/Servicios/Servicios";
 
 const Body = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/profile" element={<Profile />} />
-      <Route path="/register" element={<Register />} />
-      <Route path="/search" element={<Search />} />
+      <Route path="/servicios" element={<Servicios />} />
+      {/* <Route path="/register" element={<Register />} /> */}
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 };

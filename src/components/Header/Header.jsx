@@ -5,8 +5,8 @@ import { useNavigate } from "react-router";
 const Header = () => {
   let navigate = useNavigate();
   return (
-    <div className="headerPage">
-      <div
+    <ul className="headerPage">
+      <li
         className="linkDesign"
         onClick={() =>
           setTimeout(() => {
@@ -15,29 +15,20 @@ const Header = () => {
         }
       >
         Home
-      </div>
-      <div
+      </li>
+      
+      <li
         className="linkDesign"
         onClick={() =>
           setTimeout(() => {
-            navigate("/Login");
+            navigate("/servicios");
           }, 250)
         }
       >
-        Login
-      </div>
-      <div
-        className="linkDesign"
-        onClick={() =>
-          setTimeout(() => {
-            navigate("/profile");
-          }, 250)
-        }
-      >
-        Profile
-      </div>
+        Servicios
+      </li>
 
-      <div
+      {/* <div
         className="linkDesign"
         onClick={() =>
           setTimeout(() => {
@@ -46,19 +37,19 @@ const Header = () => {
         }
       >
         Register
-      </div>
+      </div> */}
 
-      <div
+      <li
         className="linkDesign"
         onClick={() =>
           setTimeout(() => {
-            navigate("./search");
+            navigate("./contact");
           }, 250)
         }
       >
-        Search
-      </div>
-    </div>
+        Contacto
+      </li>
+    </ul>
   );
 };
 
