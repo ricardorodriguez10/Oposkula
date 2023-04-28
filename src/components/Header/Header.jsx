@@ -1,11 +1,16 @@
 import React from "react";
 import "./Header.css";
 import { useNavigate } from "react-router";
-
+import opoxlogo from "../../assets/opoxlogo.png"
 const Header = () => {
   let navigate = useNavigate();
   return (
-    <ul className="headerPage">
+    <div className="headerPage">
+    <div className="logo">
+      <img className="logoImg" src={opoxlogo} alt="Logo de Opox"></img>
+    </div>
+    <nav>
+    <ul className="nav-links">
       <li
         className="linkDesign"
         onClick={() =>
@@ -49,7 +54,9 @@ const Header = () => {
       >
         Contacto
       </li>
-    </ul>
+      </ul>
+      </nav>
+    </div>
   );
 };
 
