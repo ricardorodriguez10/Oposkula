@@ -19,19 +19,21 @@ import Profile from "../Profile/Profile";
 
        <section id="oppositions">
 
-       <div className="firstPart">
-          <h1>Nutricionistas y Entrenadores</h1>
-          <h1>Deportivos para Opositores</h1>
-          </div>
+       <div className="row">
 
-          <div className="FirstImg">
-            <img className="oppoImg" src={Oposiciones} alt="OppositionsImg"></img>
+       <div className="firstPart">
+          <h1>Nutrición y Entrenamiento</h1>
+          <h1>para Opositores</h1>
           </div>
+</div>
       
           <section className="whoIsOpox">
+          <div className="whoIsOpoxContent">
           <h2>Opox la nueva forma de opositar</h2>
           <p>Opox es la plataforma digital de nutricionistas deportivos y entrenadores que te brindaran tu plan de entrenamiento y nutrición para que puedas cumplir tu sueño de pasar las oposiciones.</p>
+          </div>
           </section>
+
 
     <Carousel>
       <Carousel.Item>

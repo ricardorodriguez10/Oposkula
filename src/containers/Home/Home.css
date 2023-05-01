@@ -3,19 +3,28 @@
     background-color: black;
 }
 
+.row {
+    background-color: red;
+}
+
 .firstPart {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 7em;
+    padding-bottom: 5em;
+    width: 25em;
+    height: fit-content;
     
 }
 
 .whoIsOpox {
-    margin-top: 125px;
-    margin-bottom: 125px;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 3em;  
     font-size: 21px;
-    line-height: 1.3;
-    text-align: center;
+    line-height: 1.2;
+    width: 50em;
 }
+
+
 
 p {
 margin-top: 20px;
