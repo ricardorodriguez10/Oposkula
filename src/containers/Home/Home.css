@@ -3,16 +3,20 @@
     background-color: black;
 }
 
-.row {
-    background-color: red;
+.oppositions{
+    background-image: url(../../assets/police.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .firstPart {
-    margin-top: 7em;
-    padding-bottom: 5em;
+    padding-top: 8em;
+    padding-bottom: 7em;
     width: 25em;
     height: fit-content;
-    
+    font-size: 30px;
 }
 
 .whoIsOpox {
@@ -24,8 +28,13 @@
     width: 50em;
 }
 
+.OurServices {
+    padding-bottom: 3em;
+}
+
 
 .servicesContainer{
+    padding-top: 100px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -38,15 +47,6 @@ p {
 margin-top: 20px;
 }
 
-
-.OurServices {
-    margin-top: 100px;
-    background-color: red;
-}
-
-.servicesContainer{
-    padding-top: 100px;
-}
 
 .policeImg {
     width: 300px;
@@ -66,42 +66,6 @@ margin-top: 20px;
     border-radius: 10px 10px 10px 10px;
 }
 
-.cardP {
-    color: black;
-}
-
-.homeImg {
-    width: 95rem;
-    height:40rem;
-    align-items: left;
-    justify-content: left;
-}
-
-.whatDoWeDo {
-    position: relative;
-    left: 70%;
-    border-radius: 16px 16px 16px 16px;
-    width: 22rem;
-    color: white;
-    background-color: black;
-    margin-top: 5rem;
-}
-
-.completeYourProfile{
-    margin-left: 1em;
-display: flex;
-padding: 100px 0px 0px 0px;
-}
-
-
-.phoneInfo {
-    margin-top: 10em;
-    width: 30rem;
-    height: 7rem;
-    margin-left: 10em;
-    
-}
-
 .phoneImg {
 position: flex;
   width: 475px;
@@ -110,23 +74,6 @@ position: flex;
   border-radius: 16px 16px 16px 16px;
 }
 
-.yourSportNutritionist{
- display: flex;
- padding: 150px 0px 150px 0px;
-}
-
-.yourNutritionist{
-    width: 475px;
-  height: 466px;
-    margin-left: 10rem;
-}
-
-.nutritionistInfo {
-    margin-top: 10em;
-    width: 40rem;
-    height: 7rem;
-    margin-left: 3rem;
-}
 
 .nutritionistImg {
   position: flex;
@@ -164,30 +111,18 @@ padding: 100px 0px 150px 0px;
     border-radius: 16px 16px 16px 16px;
 }
 
-.doubts{
-    position: relative;
-    left: 70%;
-    border-radius: 16px 16px 16px 16px;
-    width: 22rem;
-    color: white;
-    background-color: black;
-    margin-top: 5rem;
-    padding-bottom: 15rem;
+.contactUs{
+    background-image: url(../../assets/benchpress.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
 }
 
-.firstPart {
+.lastPart{
+    padding-top: 7em;
+    color: black;
+    width: 25em;
+    height: fit-content;
     font-size: 30px;
-}
-
-.firstPartText {
-    width: 300px;
-    margin-left: 7rem;
-    padding-top: 10rem;
-    font-family: sans-serif;
-    font-size: 18px;
-
-}
-
-.howItWorks {
-    margin-top: 7em;
 }
