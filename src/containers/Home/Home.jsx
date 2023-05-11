@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import { getDataFromApi } from "../../Services/apiCalls";
 import Oposiciones from "../../assets/Oposiciones.jpg"
 import phone from "../../assets/phone.jpg"
+import police from "../../assets/police.jpg"
+import firefighter from "../../assets/firefighter.jpg"
+import forestryAgent from "../../assets/forestryAgent.jpg"
+
 import sportnutritionist from "../../assets/sportnutritionist.jpg"
 import trainer from "../../assets/trainer.jpg"
 import "./Home.css"
@@ -37,7 +41,7 @@ import Profile from "../Profile/Profile";
 
     <Carousel>
       <Carousel.Item>
-      <a href="profile">
+      <a href="servicios">
         <img
           className="phoneImg"
           src={phone}
@@ -51,7 +55,7 @@ import Profile from "../Profile/Profile";
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <a href="profile">
+      <a href="servicios">
         <img
           className="nutritionistImg"
           src={sportnutritionist}
@@ -65,7 +69,7 @@ import Profile from "../Profile/Profile";
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <a href="profile">
+      <a href="servicios">
         <img
           className="coachImg"
           src={trainer}
@@ -86,7 +90,44 @@ import Profile from "../Profile/Profile";
 
        <section className="OurServices">
 
-       <CardGroup>
+       <div className="servicesContainer">
+        <article className="">
+        <a href="servicios">
+          <figure className="">
+            <img className="policeImg" alt="Police Img" src={police}></img>
+          </figure>
+          </a>
+          <h3>Policia</h3>
+          <p>Si deseas Opositar a policia, aquí tienes los requisitos</p>
+        </article>
+
+        <article className="">
+        <a href="servicios">
+          <figure className="">
+            <img className="firefighterImg" alt="Firefighter Img" src={firefighter}></img>
+          </figure>
+          </a>
+          <h3>Bombero</h3>
+          <p>Si deseas Opositar a bombero, aquí tienes los requisitos</p>
+        </article>
+
+        <article className="">
+        <a href="servicios">
+          <figure className="">
+            <img className="forestryAgentImg" alt="Forestry Agent Img" src={forestryAgent}></img>
+          </figure>
+          </a>
+          <h3>Guardia Forestal</h3>
+          <p>Si deseas Opositar a guardia forestal, aquí tienes los requisitos</p>
+        </article>
+
+       </div>
+
+
+
+       </section>
+
+              {/* <CardGroup>
       <Card>
         <Card.Img variant="top" src={phone} />
         <Card.Body>
@@ -140,12 +181,10 @@ import Profile from "../Profile/Profile";
           <small className="text-muted">Last updated 3 mins ago</small>
         </Card.Footer>
       </Card>
-    </CardGroup>
+    </CardGroup> */}
 
-
-       </section>
        
-        <section className="whoWeAre">
+        <section className="footer">
 
           <div className="firstPartText">
             <p>Tu nutricionista deportivo y entrenador

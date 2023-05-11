@@ -25,6 +25,14 @@
 }
 
 
+.servicesContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 42px;
+    justify-content: space-evenly;
+}
 
 p {
 margin-top: 20px;
@@ -34,6 +42,28 @@ margin-top: 20px;
 .OurServices {
     margin-top: 100px;
     background-color: red;
+}
+
+.servicesContainer{
+    padding-top: 100px;
+}
+
+.policeImg {
+    width: 300px;
+    height: 310px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.firefighterImg {
+    width: 300px;
+    height: 310px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.forestryAgentImg{
+    width: 300px;
+    height: 310px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .cardP {
