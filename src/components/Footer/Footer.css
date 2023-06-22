@@ -1,4 +1,4 @@
-.footerDesign {
+.footer {
 position: relative;
 right: 0;
 bottom: 0;
@@ -9,7 +9,39 @@ width: 100vw;
 height: 5vh;
 align-items: center;
 justify-content: center;
-background-color: green;
-border-top: 0.5em;
+background-color: white;
+padding: 8em 30em 8em 8em;
+}
 
+.footerContainer {
+    align-items: left;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 50em;
+    display: flex;
+    padding-left: 5em;
+}
+
+.logoImg {
+    height: 55px;
+    width: 100px;
+    margin-right: 150px;
+}
+
+.contact {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.socialNetworks {
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    color: black; 
+    text-decoration: none;}
+a:hover {
+    color: blue;
 }

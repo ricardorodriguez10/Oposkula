@@ -4,25 +4,35 @@
 }
 
 .oppositions{
-    background-image: url(../../assets/police.jpg);
+    background-image: url(../../assets/police3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-right: 20em;
+    
 
 }
 
 .firstPart {
-    padding-top: 8em;
-    padding-bottom: 7em;
-    width: 25em;
+    padding-top: 11em;
+    padding-left: 1em;
+    padding-bottom: 14em;
+    width: 35em;
     height: fit-content;
-    font-size: 30px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    /* backdrop-filter: blur(20px); */
+}
+
+.opoxServices {
+    padding-bottom: 6em;
 }
 
 .whoIsOpox {
     margin: auto;
-    margin-top: 5em;
-    margin-bottom: 3em;  
+    padding-top: 100px;
+    padding-bottom: 3em;  
     font-size: 21px;
     line-height: 1.2;
     width: 50em;
@@ -109,6 +119,102 @@ padding: 100px 0px 150px 0px;
     width: 475px;
     height: 466px;
     border-radius: 16px 16px 16px 16px;
+}
+
+
+.services {
+    padding: 30px;
+    width:fit-content
+}
+.serviceContent{
+    padding: 26px;
+}
+
+.servicesImg {
+    height: 70px;
+    width: auto;
+    float: right;
+}
+
+.servicesImg2 {
+    height: 70px;
+    width: auto;
+    float: left;
+}
+
+
+.titlePrices {
+    padding: 80px 0px 70px 0px;
+    background-color: #171822;
+    
+}
+
+.ourPrices {
+   background-color: #171822;
+}
+
+.opoxPrices{
+    margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-bottom: 9em;
+}
+.priceContainer {
+    
+    height: 450px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px white;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: white;
+}
+
+.priceImg{
+    height: 70px;
+    width: auto;
+    border-radius: 40%;
+}
+
+.priceContainer h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.priceContainer h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.priceContainer p {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.priceContainer:hover{
+    background: #212330;
+    color: #f1f1f2;
+    transition: 0.2 all;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600px;
+    margin: auto;
+
 }
 
 .contactUs{

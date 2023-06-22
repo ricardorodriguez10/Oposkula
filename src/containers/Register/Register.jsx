@@ -80,3 +80,83 @@ setUserError (prevValue => {
 };
 
 export default Register;
+
+<section className="ourPrices">
+<div className="pricesContainer">
+  <div className="oneYearPriceContainer">
+  <div className="OneYearPrice">
+  <div className="oneYear"></div>
+  <h2>Anual</h2>
+  </div>
+
+  <section className="oneYearPrices">
+    <div className="oneYearPrices Container">
+    <div className="Row">
+      <div className="firstPrice Col sm={6} Col lg={4}">
+      <p>468€</p>
+      </div>
+      </div>
+      <div className="secondPrice">
+      <p>238€</p>
+        </div>
+
+      <div className="onePayment">
+        <div className="onePaymenttext">
+        <h4>PAGO ÚNICO</h4>
+        <p>Equivale a 19,9€/mes</p>
+
+        </div>
+      </div>
+
+    <div className="saveButton">
+      <div className="saveButton2">
+        <div className="saveButton3">
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+    
+  <div className="oneYearPriceContainer">
+  <div className="OneYearPrice">
+  <div className="oneYear"></div>
+  <h2>Anual</h2>
+  </div>
+
+  <section className="oneYearPrices">
+    <div className="oneYearPrices Container">
+    <div className="Row">
+      <div className="firstPrice Col sm={6} Col lg={4}">
+      <p>468€</p>
+      </div>
+      </div>
+      <div className="secondPrice">
+      <p>238€</p>
+        </div>
+
+      <div className="onePayment">
+        <div className="onePaymenttext">
+        <h4>PAGO ÚNICO</h4>
+        <p>Equivale a 19,9€/mes</p>
+
+        </div>
+      </div>
+
+    <div className="saveButton">
+      <div className="saveButton2">
+        <div className="saveButton3">
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+    
+
+
+  </div>
+
+  </div>
+</div>
+</section>
