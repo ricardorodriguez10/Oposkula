@@ -2,39 +2,52 @@
 
 *{
     box-sizing: border-box;
-}
-
-.headerPage {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 18px;
-    padding-right: 50px;
-    background-color: black;
-    color: white;
-
-}
-
-
-.linkDesign {
-   padding: 0px 20px;
-    cursor: pointer;
-    list-style: none;
-    display: inline-block;
-    transform: scale(1,1);
    
 }
 
 
-.linkDesign:hover {
-    color: red;
-    transition: 0.5s;
-    transform: scale(1.1);
+.container {
+    background-color: #071952;
 }
 
-.logo {
+
+.headerPage {
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .logo {
     cursor: pointer;
     margin-right: auto;
     height: 60px;
@@ -43,7 +56,7 @@
 
 .logoImg {
     height: 35px;
-    width: 100px;
+    width: 20px;
     margin-top: 10px;
     transition: all 0.3s;
     border-radius: 10px;
@@ -51,4 +64,4 @@
 
 .logoImg:hover{
     transform: scale(1.2);
-}
+} */

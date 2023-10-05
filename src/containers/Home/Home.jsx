@@ -19,9 +19,6 @@ import tiempolimitado from "../../assets/tiempolimitado.jpg";
 import calendario from "../../assets/calendario.jpg";
 import aniversario from "../../assets/aniversario.jpg";
 import "./Home.css";
-import FoodDetailCard from "../../components/FoodDetailCard/FoodDetailCard";
-import MealCard from "../../components/MealCard";
-import FoodList from "../../components/Food/FoodList";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -34,10 +31,10 @@ const Home = () => {
     <div className="homePage">
       <section className="row oppositions">
         <div className="firstPart col-md-6 col-sm-6 col-xs-12">
-          <h1>Entrenamiento y Nutrición</h1>
-          <h1>para tus Oposiciones</h1>
+          <h1>Nutricionistas especializados en oposiciones</h1>
           <br></br>
-          <p>Te ayudamos a pasar las pruebas físicas.</p>
+          <p>Te brindaremos un plan nutricional especifico</p>
+          <p>para mejorar tu desempeño fisico y mental</p>
         </div>
       </section>
 
@@ -45,9 +42,9 @@ const Home = () => {
         <div className="opoxServices row">
           <div className="whoIsOpox col-md-12">
             <div className="whoIsOpoxContent">
-              <h1>Opox la nueva forma de opositar</h1>
+              <h1>Oposkula la nueva forma de opositar</h1>
               <p>
-                Opox es una plataforma digital para los opositores que realmente
+                Oposkula es una plataforma digital para los opositores que realmente
                 quieren ganarse una plaza.
               </p>
             </div>

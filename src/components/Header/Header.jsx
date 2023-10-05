@@ -1,28 +1,21 @@
 import React from "react";
 import "./Header.css";
 import { useNavigate } from "react-router";
-import opoxlogo from "../../assets/opoxlogo.png"
 const Header = () => {
   // let navigate = useNavigate();
   return (
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
-<div className="logo">
-<a href="#"><img className="logoImg" src={opoxlogo} alt="logo de Opox"></img></a>
-  </div>
 
   <div class="container">
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Servicios</a>
-        <a class="nav-link" href="#">Precios</a>
-        <a class="nav-link disabled">Contacto</a>
+        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+        <a class="nav-link" href="#">Nutrición para opositores</a>
+        <a class="nav-link" href="/Register">Registro</a>
+        <a class="nav-link" href="#">Contacto</a>
       </div>
     </div>
   </div>

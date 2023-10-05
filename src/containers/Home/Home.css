@@ -20,8 +20,9 @@
     width: 35em;
     height: fit-content;
     font-size: 20px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #071952;
+   
     /* backdrop-filter: blur(20px); */
 }
 
@@ -232,3 +233,4 @@ padding: 100px 0px 150px 0px;
     height: fit-content;
     font-size: 30px;
 }
+

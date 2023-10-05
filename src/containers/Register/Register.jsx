@@ -81,7 +81,7 @@ setUserError (prevValue => {
 
 export default Register;
 
-<section className="ourPrices">
+{/* <section className="ourPrices">
 <div className="pricesContainer">
   <div className="oneYearPriceContainer">
   <div className="OneYearPrice">
@@ -156,7 +156,6 @@ export default Register;
 
 
   </div>
-
   </div>
 </div>
-</section>
+</section> */}
