@@ -5,21 +5,18 @@ const Header = () => {
   // let navigate = useNavigate();
   return (
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-
-
   <div class="container">
-
-    <div class="">
+<nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
       <div class="navbar-nav">
-        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+        <a class="nav-link" aria-current="page" href="/Home">Inicio</a>
         <a class="nav-link" href="#">Nutrición para opositores</a>
         <a class="nav-link" href="/Register">Registro</a>
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="/Contact">Contacto</a>
+
       </div>
-    </div>
+      </nav>
   </div>
-</nav>
+
   );
 };
 export default Header;
