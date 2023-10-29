@@ -53,7 +53,7 @@ setUserError (prevValue => {
 
   return (
     <div className="registerPage">
-      <h1>Register</h1>
+      <h1>Registro</h1>
 
 <div className="logoRegister">
   {/* <img className ="logoDesign" src={} alt={} /> */}

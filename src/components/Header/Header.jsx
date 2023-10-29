@@ -5,10 +5,10 @@ const Header = () => {
   // let navigate = useNavigate();
   return (
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg">
 
 
-  <div class="container">
+  <div class="navbar container">
 
     <div class="">
       <div class="navbar-nav">
